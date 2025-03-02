@@ -5,5 +5,9 @@ It also displays the current date and moon phase, in which are updated every day
 # Source
 The calculation used to determine the current moon phase is an adapted implementation of the **Sinodic Month calculation** algoritm, found [**here**](https://blog.eletrogate.com/relogio-de-fases-lunares-com-o-arduino/).
 
+## See also
+Other projects.
+* [**Pokemon Fire Red**](https://github.com/bugdorderoms/pokefirered)
+
 ## Contact
 You can contact me via Discord. blackuser#6963.
