@@ -47,28 +47,28 @@ function GetCurrentMoonPhase(year, month, day)
     switch (phase)
     {
         case 0:
-            phase = 'New';
-            break;
-        case 1:
-            phase = 'Waxing crescent';
-            break;
-        case 2:
-            phase = 'First quarter';
-            break;
-        case 3:
-            phase = 'Waxing gibbous';
-            break;
-        case 4:
             phase = 'Full';
             break;
-        case 5:
+        case 1:
             phase = 'Waning gibbous';
             break;
-        case 6:
+        case 2:
             phase = 'Last quarter';
             break;
-        case 7:
+        case 3:
             phase = 'Waning crescent';
+            break;
+        case 4:
+            phase = 'New';
+            break;
+        case 5:
+            phase = 'Waxing crescent';
+            break;
+        case 6:
+            phase = 'First quarter';
+            break;
+        case 7:
+            phase = 'Waxing gibbous';
             break;
     }
     return phase;
